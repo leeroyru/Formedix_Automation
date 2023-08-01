@@ -50,4 +50,4 @@ mvn test as a Maven Project
 - Selenium Domains
 - Cucumber
 
-Happy testing with Cucumber Java Maven Project! If you have any questions or encounter any issues, feel free to reach out to the maintainers or open an issue in the repository.
+Happy testing with Cucumber Java Maven Project! If you have any questions or encounter any issues, feel free to reach out by Commenting on my GIT repository.

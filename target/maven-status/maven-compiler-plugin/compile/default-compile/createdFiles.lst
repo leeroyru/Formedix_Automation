@@ -1,9 +1,0 @@
-Formedix\pageobjects\Forms.class
-Formedix\pageobjects\Home_Repository_Studies.class
-Formedix\HelperClass\AbtructClassess.class
-Formedix\pageobjects\Logout.class
-Formedix\stepdefinitions\MedicalHistoryTestRunner.class
-Formedix\pageobjects\LandingPage.class
-Formedix\pageobjects\TechStudy.class
-Formedix\pageobjects\Data_Aquisation.class
-Formedix\stepdefinitions\LandingPageStepDefinition.class
