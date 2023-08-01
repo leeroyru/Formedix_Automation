@@ -1,12 +1,12 @@
 ## Project Name: BDD Framework with Java and Cucumber 
 ### Author: Leeroy Ruzvidzo
 ### Table of contents
-- [Overview](#Overview)
+- [Overview](#overview)
 - [Installation](#installation )
-- [Getting Started](#Getting Started )
+- [Getting Started](#getting started )
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Running Test](#Running Test)
+- [Running Test](#running test)
 - [Examples](#examples)
 - [Reporting](#reporting)
 - [Dependencies](#dependecies)
