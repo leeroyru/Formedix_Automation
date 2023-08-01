@@ -2,11 +2,11 @@
 ### Author: Leeroy Ruzvidzo
 ### Table of contents
 - [Overview](#overview)
-- [Installation](#installation )
-- [Getting Started](#getting started )
+- [Installation](#installation)
+- [Getting Started](#gettingstarted)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Running Test](#running test)
+- [Running Test](#runningtest)
 - [Examples](#examples)
 - [Reporting](#reporting)
 - [Dependencies](#dependencies)
@@ -50,4 +50,4 @@ mvn test as a Maven Project
 - Selenium Domains
 - Cucumber
 
-Happy testing with Cucumber Java Maven Project! If you have any questions or encounter any issues, feel free to reach out by Commenting on my GIT repository.
+Happy testing with Cucumber Java Maven Project! If you have any questions or encounter any issues, feel free to reach out by commenting on my GIT repository.
