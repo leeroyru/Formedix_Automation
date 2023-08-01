@@ -45,12 +45,10 @@ public class Forms {
         Thread.sleep(2000);
         UpdateForm.click();
     }
-    public boolean textDescription() throws InterruptedException {
-        String expectedHeaderText = "Welcome To Formedix Medical Center";
+    public boolean textDescription() {
+        String expectedHeaderText = "Welcome To Formedix Medical Center.";
         String actualHeaderText = heading.getText();
-
-        // Assertion to validate the header text
-        Assert.assertEquals(actualHeaderText, expectedHeaderText, "Welcome To Formedix Medical Center");
+        Assert.assertEquals(actualHeaderText, expectedHeaderText, "Welcome To Formedix Medical Center.");
         return false;
     }
 }

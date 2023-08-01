@@ -3,8 +3,11 @@ import Formedix.pageobjects.*;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-public class LandingPageStepDefinition {
-    WebDriver driver = new ChromeDriver();
+import org.openqa.selenium.chrome.ChromeOptions;
+public class MedicalHistoryStepDefinition {
+
+    ChromeOptions chromeOptions = new ChromeOptions();
+    WebDriver driver = new ChromeDriver(chromeOptions);
     LandingPage lp = new LandingPage(driver);
     Home_Repository_Studies Hm = new Home_Repository_Studies(driver);
     TechStudy Tech = new TechStudy(driver);

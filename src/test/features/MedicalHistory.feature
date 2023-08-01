@@ -2,7 +2,7 @@ Feature: MedicalHistory
 
 
   @VerifyMedicalHistoryDescription
-  Scenario Outline: User lands on Medical History Page
+  Scenario Outline: User Adds Description on Medical History Page
     Given User launch Chrome Browser and land on Formedix home page
     And User logs into Formedix Medical History Page "<Username>" and "<Password>"
     And Click on Login
@@ -15,7 +15,7 @@ Feature: MedicalHistory
     Then User Signs out by expanding the menu when the mouse is over the user icon on the bottom left hand side of the menu bar.
 
     Examples:
-      | Username         | Password   | Description                       |Locale|
-      | testteamtechtest | Ryz3T3st!x | Welcome To Formedix Medical Center| MH   |
+      | Username         | Password   | Description                                                                                                | Locale |
+      | testteamtechtest | Ryz3T3st!x | Welcome To Formedix Medical Center.| MH     |
 
 

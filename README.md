@@ -30,7 +30,7 @@
 ## Configuration
 - If you need to adjust any configurations, check the 'cucumber.properties' file located in the 'src/test/resources' directory.
 ## Running Test
--To run the Cucumber tests: Run via the Cucumber+ Tab ,Run MedicalHistoryTestRunner or  use the following Maven command:
+- Run MedicalHistoryTestRunner or  use the following Maven command:
 mvn test as a Maven Project
 ## Examples 
 - MedicalHistory.feature -> stepdefinition -> LandingPageStepDefinition -> pageobjects -> LandingPage -> Home_Repository-> TechStudies -> Data_Acquisition -> Forms -> Logout
