@@ -15,10 +15,10 @@ public class Logout {
     @FindBy(id="menuUserLogout")
     WebElement logout;
     public void signOut() throws InterruptedException {
-        Thread.sleep(6000);
+        Thread.sleep(2000);
         menuover.click();
         logout.click();
-        Thread.sleep(6000);
+        Thread.sleep(2000);
         driver.quit();
 
     }

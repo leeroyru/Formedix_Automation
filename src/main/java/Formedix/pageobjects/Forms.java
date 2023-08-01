@@ -44,8 +44,8 @@ public class Forms {
         UpdateForm.click();
     }
     public boolean textDescription() throws InterruptedException {
-         Thread.sleep(5000);
-         return heading.getText().toString().contains("Welcome To Formedix Medical Center");
+         Thread.sleep(2000);
+         return heading.getText().contains("Welcome To Formedix Medical Center");
     }
 }
 

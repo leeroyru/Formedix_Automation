@@ -9,7 +9,7 @@
 - [Running Test](#running test)
 - [Examples](#examples)
 - [Reporting](#reporting)
-- [Dependencies](#dependecies)
+- [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
@@ -33,7 +33,7 @@
 -To run the Cucumber tests: Run via the Cucumber+ Tab ,Run MedicalHistoryTestRunner or  use the following Maven command:
 mvn test as a Maven Project
 ## Examples 
-- MedicalHistory.feature -> LandingPageStepDefinition
+- MedicalHistory.feature -> stepdefinition -> LandingPageStepDefinition -> pageobjects -> LandingPage -> Home_Repository-> TechStudies -> Data_Acquisition -> Forms -> Logout
 ## Reporting
 - After running the tests, the Cucumber report will be generated. You can find it in the 'target/cucumber-reports' directory.
 ## Dependencies

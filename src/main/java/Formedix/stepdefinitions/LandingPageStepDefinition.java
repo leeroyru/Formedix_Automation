@@ -8,7 +8,7 @@ public class LandingPageStepDefinition {
     LandingPage lp = new LandingPage(driver);
     Home_Repository_Studies Hm = new Home_Repository_Studies(driver);
     TechStudy Tech = new TechStudy(driver);
-    Data_Aquisation Dataaque = new Data_Aquisation(driver);
+    Data_Aquisition Dataaque = new Data_Aquisition(driver);
     Forms Fm = new Forms(driver);
     Logout Lg = new Logout(driver);
     @Given("User launch Chrome Browser and land on Formedix home page")
