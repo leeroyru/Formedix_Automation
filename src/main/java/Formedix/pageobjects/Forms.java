@@ -3,6 +3,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
 public class Forms {
      WebDriver driver;
      public Forms(WebDriver driver){
@@ -44,11 +46,14 @@ public class Forms {
         UpdateForm.click();
     }
     public boolean textDescription() throws InterruptedException {
-         Thread.sleep(2000);
-         return heading.getText().contains("Welcome To Formedix Medical Center");
+        String expectedHeaderText = "Welcome To Formedix Medical Center";
+        String actualHeaderText = heading.getText();
+
+        // Assertion to validate the header text
+        Assert.assertEquals(actualHeaderText, expectedHeaderText, "Welcome To Formedix Medical Center");
+        return false;
     }
 }
-
 
 
 

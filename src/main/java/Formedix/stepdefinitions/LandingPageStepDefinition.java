@@ -58,7 +58,7 @@ public class LandingPageStepDefinition {
             }
             Fm.textDescription();
         }
-        System.out.println(Fm.textDescription());
+        Fm.textDescription();
     }
     @Then("User Signs out by expanding the menu when the mouse is over the user icon on the bottom left hand side of the menu bar.")
     public void user_signs_out_by_expanding_the_menu_when_the_mouse_is_over_the_user_icon_on_the_bottom_left_hand_side_of_the_menu_bar() throws InterruptedException {
