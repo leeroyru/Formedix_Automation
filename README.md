@@ -43,7 +43,7 @@ mvn test as a Maven Project
 ## Troubleshooting
 - Build a project by running it through the Terminals or Through cucumber runner and read exceptions to debug the code
 ## License
-- This project is licensed under the [MIT License](License).
+- This project is licensed under the [MIT License](LICENSE).
 ## Credits
 - Maven Repository
 - Java Domains
